@@ -1,0 +1,1 @@
+# !/usr/bin/env python# -*- coding:utf-8 -*-# name: 03_预激活协程装饰器 # author: li zhang# date: 2019/12/3from functools import wrapsdef cor(func):    @wraps(func)    def primer(*args, **kwargs):        gen = func(*args, **kwargs)        next(gen)        return gen    return primer

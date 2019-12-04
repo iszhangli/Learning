@@ -1,0 +1,1 @@
+# !/usr/bin/env python# -*- coding:utf-8 -*-# name: 02_复杂的协程例子 # author: li zhang# date: 2019/12/2def average():    total = 0.0    count = 0    average = None    while True:        term = yield average        total += term        count += 1        average = total / countcoro_avg = average()next(coro_avg)print(coro_avg.send(10))# 协程在使用之前必须预激，可以通过加装饰器的方法来完成这一动作

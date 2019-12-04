@@ -1,0 +1,1 @@
+# !/usr/bin/env python# -*- coding:utf-8 -*-# name: 06_函数库中的生成器 # author: li zhang# date: 2019/11/26def chain(*iterable):    for it in iterable:        for i in it:            yield idef chain2(*iterable):    for it in iterable:        yield from its = 'ABC't = tuple(range(3))c = chain2(s, t)print(next(c))
