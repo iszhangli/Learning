@@ -87,7 +87,7 @@ def img2vector(filename):
 
 def handwritingClassTest():
     hwLabels = []
-    trainingFileList = listdir('trainingDigits')           #load the training set
+    trainingFileList = listdir(r'E:\Codes\Github\Learning\ActionMachine\data\knn\digits\trainingDigits')           #load the training set
     m = len(trainingFileList)
     trainingMat = zeros((m,1024))
     for i in range(m):
@@ -111,6 +111,6 @@ def handwritingClassTest():
     print("\nthe total error rate is: %f" % (errorCount/float(mTest)))
 
 if __name__ == "__main__":
-    W = datingClassTest()
-    #W2 = handwritingClassTest()
+    # W = datingClassTest()
+    handwritingClassTest()
 
