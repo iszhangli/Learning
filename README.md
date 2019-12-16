@@ -11,6 +11,8 @@
 ## 需预言
 * 集成学习
 * streamlit
-* sql练习
-* 静态网站升级
+* sql练习 
+	* https://sqlzoo.net/
+	* https://leetcode-cn.com/problemset/all/?search=sql
+* github.io的模板
 
