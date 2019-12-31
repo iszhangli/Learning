@@ -2,175 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7e57371-33af-48f7-9c69-e1f26dde6034" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/decision_tree/treePlotter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/EXTRAS/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/EXTRAS/createDist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/EXTRAS/createDist2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/EXTRAS/createFirstPlot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/EXTRAS/testSet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/datingTestSet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/datingTestSet2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/digits.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/kNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch02/testSet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch03/classifierStorage.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch03/lenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch03/treePlotter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch03/trees.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/EXTRAS/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/EXTRAS/create2Normal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/EXTRAS/monoDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/bayes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/ham/9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch04/email/spam/9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch05/EXTRAS/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch05/EXTRAS/plot2D.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch05/EXTRAS/plotGD.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch05/EXTRAS/plotSDerror.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch05/EXTRAS/sigmoidPlot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch05/horseColicTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch05/horseColicTraining.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch05/logRegres.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch05/testSet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch06/EXTRAS/notLinSeperable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch06/EXTRAS/plotRBF.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch06/EXTRAS/plotSupportVectors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch06/digits.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch06/svmMLiA.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch06/testSet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch06/testSetRBF.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch06/testSetRBF2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch07/EXTRAS/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch07/adaboost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch07/horseColicTest2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch07/horseColicTraining2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch07/old_adaboost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/Old_regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/abalone.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/ex0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/ex1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/setHtml/lego10030.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/setHtml/lego10179.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/setHtml/lego10181.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/setHtml/lego10189.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/setHtml/lego10196.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch08/setHtml/lego8288.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/bikeSpeedVsIq_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/bikeSpeedVsIq_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/ex0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/ex00.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/ex2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/ex2test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/exp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/exp2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/expTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/regTrees.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/sine.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch09/treeExplore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch10/Portland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch10/kMeans.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch10/places.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch10/portlandClubs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch10/testSet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch10/testSet2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch11/apriori.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch11/bills20DataSet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch11/lawAssnRules.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch11/meaning20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch11/mushroom.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch11/recent100bills.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch11/recent20bills.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch12/fpGrowth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch12/kosarak.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch13/extras/createFig1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch13/extras/createFig2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch13/extras/createFig3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch13/extras/createFig4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch13/iris.data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch13/pca.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch13/secom.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch13/testSet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch13/testSet3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch14/0_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch14/svdRec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/err.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/inputFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/junk.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/kickStart.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/mrMean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/mrMeanMapper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/mrMeanReducer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/mrSVM.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/mrSVMkickStart.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/myfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/myout.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/pegasos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/proximalSVM.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/py27dbg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/svmDat2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/svmDat26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/svmDat27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/svmData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/testSet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/testSet200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/Ch15/wc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machinelearninginaction/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MLJupyter/decision_tree/.ipynb_checkpoints/决策树-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../MLJupyter/decision_tree/.ipynb_checkpoints/决策树-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MLJupyter/decision_tree/决策树.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../MLJupyter/decision_tree/决策树.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,8 +21,10 @@
     <session id="1469782127">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -220,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knn/kNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="2136">
               <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="e#387#406#0" expanded="true" />
@@ -232,11 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/decision_tree/trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="384">
               <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <element signature="e#121#141#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -244,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/decision_tree/treePlotter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="94" column="37" lean-forward="true" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+            <state relative-caret-position="704">
+              <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
               <folding>
                 <element signature="e#59#90#0" expanded="true" />
               </folding>
@@ -287,11 +118,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="98" />
-    <option name="y" value="28" />
-    <option name="width" value="1534" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -299,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,15 +137,11 @@
               <item name="ActionMachine" type="b2602c69:ProjectViewProjectNode" />
               <item name="ActionMachine" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ActionMachine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ActionMachine" type="462c0819:PsiDirectoryNode" />
-              <item name="decision_tree" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,14 +317,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32977462" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26057908" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26057908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32962137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,26 +369,6 @@
     <entry file="file://D:/installsofware/python3.6/Lib/site-packages/numpy/matrixlib/defmatrix.py" />
     <entry file="file://D:/installsofware/python3.6/Lib/site-packages/numpy/lib/shape_base.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-16396486/numpy/core/multiarray.py" />
-    <entry file="file://$PROJECT_DIR$/knn/kNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="e#387#406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decision_tree/trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#121#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/installsofware/python3.6/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -578,10 +383,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/knn/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2136">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="e#387#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decision_tree/trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/decision_tree/treePlotter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="94" column="37" lean-forward="true" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+        <state relative-caret-position="704">
+          <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
           <folding>
             <element signature="e#59#90#0" expanded="true" />
           </folding>
