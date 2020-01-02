@@ -3,6 +3,11 @@ Created on Nov 28, 2010
 Adaboost is short for Adaptive Boosting
 @author: Peter
 '''
+
+'''
+adaboost是一种集成学习的方法，需要和基分类器配合使用
+'''
+
 from numpy import *
 
 def loadSimpData():
@@ -35,18 +40,21 @@ def stumpClassify(dataMatrix,dimen,threshVal,threshIneq):#just classify the data
         retArray[dataMatrix[:,dimen] > threshVal] = -1.0
     return retArray
     
+# TODO 这个的套路看的有问题
+# 最佳的单层决策树，最佳单层决策树是权重向量D来定义的
+# 步长难道是用来计算增益的？
 
 def buildStump(dataArr,classLabels,D):
     dataMatrix = mat(dataArr); labelMat = mat(classLabels).T
     m,n = shape(dataMatrix)
     numSteps = 10.0; bestStump = {}; bestClasEst = mat(zeros((m,1)))
-    minError = inf #init error sum, to +infinity
-    for i in range(n):#loop over all dimensions
+    minError = inf  #init error sum, to +infinity
+    for i in range(n): #loop over all dimensions 对N dimension 特征进行分类   i = [1, 2]
         rangeMin = dataMatrix[:,i].min(); rangeMax = dataMatrix[:,i].max();
-        stepSize = (rangeMax-rangeMin)/numSteps
-        for j in range(-1,int(numSteps)+1):#loop over all range in current dimension
+        stepSize = (rangeMax-rangeMin)/numSteps  # 这个 TODO numSteps
+        for j in range(-1,int(numSteps)+1):#loop over all range in current dimension j = [-1, 0, 1, 2, 3 ... 11]
             for inequal in ['lt', 'gt']: #go over less than and greater than
-                threshVal = (rangeMin + float(j) * stepSize)
+                threshVal = (rangeMin + float(j) * stepSize)  # [0.9 ]
                 predictedVals = stumpClassify(dataMatrix,i,threshVal,inequal)#call stump classify with i, j, lessThan
                 errArr = mat(ones((m,1)))
                 errArr[predictedVals == labelMat] = 0
@@ -128,3 +136,4 @@ def plotROC(predStrengths, classLabels):
 datMat,classLabels = loadSimpData()
 D = mat(ones((5,1)) / 5)
 _ = buildStump(datMat, classLabels, D)
+_ = adaBoostTrainDS(datMat, classLabels, 9)
