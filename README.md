@@ -18,4 +18,5 @@
 
 ## 学习资源
 * https://blog.csdn.net/han_xiaoyang/article/details/50469334
+* https://yuehhua.github.io/slides/intro-to-gnn/#/59 关于GNN的综述
 
