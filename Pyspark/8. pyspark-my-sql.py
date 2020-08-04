@@ -15,5 +15,4 @@ import os
 
 # 1. 构建上下文
 spark = SparkSession.builder.master('local[*]').appName('pyspark sql')
-df -
 

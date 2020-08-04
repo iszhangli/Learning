@@ -68,6 +68,16 @@ print(df2.show())
 # 第二种方法的 第二种 直接给定schema信息
 
 
+spark.udf.register()
+
+class MyAvg():
+    def __init__(self):
+        pass
+    def len(self):
+        return 1
+spark.udf.registerJavaUDAF('udaf', MyAvg)
+
+
 
 
 
